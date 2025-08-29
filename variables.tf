@@ -4,13 +4,13 @@ variable "tenant_id" {
 } 
 variable "subscription_id" { 
  type = string 
- default = "4dbffbb6-92ea-4699-bba4-5c52b58301ff" #modify accordingly
-} 
+ default = "4dbffbb6-92ea-4699-bba4-5c52b58301ff"
+}
 variable "rg_name" { 
  type = string 
- default = "sandbox_farah.kacem" #modify accordingly
+ default = "sandbox_elios.karam"
 } 
 variable "location" { 
  type  = string 
- default = "West Europe"
+ default = "France Central"
 } 
