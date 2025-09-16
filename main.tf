@@ -12,7 +12,7 @@ resource "azurerm_storage_account" "sg1" {
  location     =  var.location
  account_tier    =  "Standard" 
  account_replication_type =  "LRS" 
- allow_nested_items_to_be_public = true 
+ allow_nested_items_to_be_public = false 
 } 
 
 # Create a Blob 
